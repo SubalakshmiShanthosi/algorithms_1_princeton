@@ -11,7 +11,9 @@ public class WeightedQuickUnion{
         size = new int[N];
 
         for(int i=0;i<id.length;i++)
-            id[i]=i;
+            {id[i]=i;
+                size[i]=1;
+            }
     }
 
     public int root(int p)
